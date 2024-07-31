@@ -1,0 +1,18 @@
+ create table myntra
+    -> (
+    -> product_id int,
+    -> name varchar(20),
+    -> size varchar(20),
+    -> brand varchar(20),
+    -> price int,
+    -> discount int as (price-100),
+    -> final_price int as (price-discount)
+    -> );
+Query OK, 0 rows affected (0.05 sec)
+
+mysql> insert into myntra(product_id,name,size,brand,price) values
+    -> (1,'tshirt','m','zara',500),
+    -> (2,'chinos','s','rarerabbit',1500),
+    -> (3,'denimjeans','l','levis',2000);
+Query OK, 3 rows affected (0.02 sec)
+Records: 3  Duplicates: 0  Warnings: 0

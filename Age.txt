@@ -1,0 +1,18 @@
+class Age
+{
+	public static void main(String args[])
+	{
+		int age=52,year=2024;
+		if(age>18)
+			System.out.println("eligible to vote");
+			if(age>=25)
+				System.out.println("young");
+				if(year>=2020)
+					System.out.println("eligible for MLC elections");
+			elseif(age>=50)
+				System.out.println("senior citizen");
+		else
+			System.out.println('minor");
+	}
+}
+			
