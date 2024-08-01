@@ -26,4 +26,5 @@ class Armstrong
 			System.out.println("not an Armstrong number");
 	}
 }
+//this is modified armstrong
 			
