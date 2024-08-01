@@ -5,7 +5,7 @@ class Age
 		int age=50,year=2024;
 		if(age>=50)
 			System.out.println("senior citizen");
-		else if(age>=25)
+		else if(age>=21)
 			{
 			System.out.println("young");
 			if(year>=2020)
