@@ -23,7 +23,7 @@ class Armstrong
 		if(temp==sum)
 			System.out.println("Armstromg");
 		else 
-			System.out.println("not an Armstrong number");
+			System.out.println("i am not an Armstrong number");
 	}
 }
 //this is modified armstrong
